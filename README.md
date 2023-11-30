@@ -1,5 +1,5 @@
 
-## Running a model
+## Running SRKBE
 
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py --dataset FB-AUTO --num_iterations 200 --batch_size 64 --lr 0.005 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.2 --drop_ent 0.4 --eval_step 1 --valid_patience 10 -ary 2 -ary 4 -ary 5
