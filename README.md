@@ -16,5 +16,5 @@ CUDA_VISIBLE_DEVICES=4 python3 main.py --dataset WikiPeople --num_iterations 100
 
 CUDA_VISIBLE_DEVICES=6 python3 main.py --dataset WN18 --num_iterations 100 --batch_size 64 --lr 0.003 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.0 --drop_ent 0.2 --eval_step 1 --valid_patience 10 -ary 2
 
-CUDA_VISIBLE_DEVICES=7 python3 main.py --dataset FB15K --num_iterations 100 --batch_size 64 --lr 0.003 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.0 --drop_ent 0.2 --eval_step 1 --valid_patience 10 -ary 2
+CUDA_VISIBLE_DEVICES=7 python3 main.py --dataset FB15K --num_iterations 100 --batch_size 64 --lr 0.003 --dr 0.995 --K 10 --rdim 50 --m 2 --drop_role 0.0 --drop_ent 0.2 --eval_step 1 --valid_patience 10 -ary 2 
 ```
